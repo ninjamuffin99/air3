@@ -1,8 +1,8 @@
 package flash.filesystem;
 
 extern enum abstract FileMode(String) {
-	APPEND;
-	READ;
-	UPDATE;
-	WRITE;
+	var APPEND;
+	var READ;
+	var UPDATE;
+	var WRITE;
 }

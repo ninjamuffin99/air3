@@ -1,8 +1,8 @@
 package flash.security;
 
 extern enum abstract RevocationCheckSettings(String) {
-	ALWAYS_REQUIRED;
-	BEST_EFFORT;
-	NEVER;
-	REQUIRED_IF_AVAILABLE;
+	var ALWAYS_REQUIRED;
+	var BEST_EFFORT;
+	var NEVER;
+	var REQUIRED_IF_AVAILABLE;
 }

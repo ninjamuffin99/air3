@@ -1,7 +1,7 @@
 package flash.security;
 
 extern enum abstract SignatureStatus(String) {
-	INVALID;
-	UNKNOWN;
-	VALID;
+	var INVALID;
+	var UNKNOWN;
+	var VALID;
 }

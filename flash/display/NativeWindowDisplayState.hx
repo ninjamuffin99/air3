@@ -1,7 +1,7 @@
 package flash.display;
 
 extern enum abstract NativeWindowDisplayState(String) {
-	MAXIMIZED;
-	MINIMIZED;
-	NORMAL;
+	var MAXIMIZED;
+	var MINIMIZED;
+	var NORMAL;
 }

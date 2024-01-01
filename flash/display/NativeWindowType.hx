@@ -1,7 +1,7 @@
 package flash.display;
 
 extern enum abstract NativeWindowType(String) {
-	LIGHTWEIGHT;
-	NORMAL;
-	UTILITY;
+	var LIGHTWEIGHT;
+	var NORMAL;
+	var UTILITY;
 }

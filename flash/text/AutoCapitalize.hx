@@ -1,8 +1,8 @@
 package flash.text;
 
 extern enum abstract AutoCapitalize(String) {
-	ALL;
-	NONE;
-	SENTENCE;
-	WORD;
+	var ALL;
+	var NONE;
+	var SENTENCE;
+	var WORD;
 }

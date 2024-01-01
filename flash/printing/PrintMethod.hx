@@ -1,7 +1,7 @@
 package flash.printing;
 
 extern enum abstract PrintMethod(String) {
-	AUTO;
-	BITMAP;
-	VECTOR;
+	var AUTO;
+	var BITMAP;
+	var VECTOR;
 }

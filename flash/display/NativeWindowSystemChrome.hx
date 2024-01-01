@@ -1,7 +1,7 @@
 package flash.display;
 
 extern enum abstract NativeWindowSystemChrome(String) {
-	ALTERNATE;
-	NONE;
-	STANDARD;
+	var ALTERNATE;
+	var NONE;
+	var STANDARD;
 }

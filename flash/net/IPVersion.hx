@@ -1,6 +1,6 @@
 package flash.net;
 
 extern enum abstract IPVersion(String) {
-	IPV4;
-	IPV6;
+	var IPV4;
+	var IPV6;
 }

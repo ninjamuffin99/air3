@@ -1,8 +1,8 @@
 package flash.display;
 
 extern enum abstract NativeWindowRenderMode(String) {
-	AUTO;
-	CPU;
-	DIRECT;
-	GPU;
+	var AUTO;
+	var CPU;
+	var DIRECT;
+	var GPU;
 }

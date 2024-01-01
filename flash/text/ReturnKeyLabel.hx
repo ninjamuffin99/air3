@@ -1,9 +1,9 @@
 package flash.text;
 
 extern enum abstract ReturnKeyLabel(String) {
-	DEFAULT;
-	DONE;
-	GO;
-	NEXT;
-	SEARCH;
+	var DEFAULT;
+	var DONE;
+	var GO;
+	var NEXT;
+	var SEARCH;
 }

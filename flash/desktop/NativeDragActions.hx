@@ -1,8 +1,8 @@
 package flash.desktop;
 
 extern enum abstract NativeDragActions(String) {
-	COPY;
-	LINK;
-	MOVE;
-	NONE;
+	var COPY;
+	var LINK;
+	var MOVE;
+	var NONE;
 }
