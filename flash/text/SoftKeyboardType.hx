@@ -1,6 +1,6 @@
 package flash.text;
 
-@:fakeEnum(String) extern enum SoftKeyboardType {
+extern enum abstract SoftKeyboardType(String) {
 	CONTACT;
 	DEFAULT;
 	EMAIL;

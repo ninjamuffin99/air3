@@ -1,6 +1,6 @@
 package flash.filesystem;
 
-@:fakeEnum(String) extern enum FileMode {
+extern enum abstract FileMode(String) {
 	APPEND;
 	READ;
 	UPDATE;

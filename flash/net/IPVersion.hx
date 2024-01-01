@@ -1,6 +1,6 @@
 package flash.net;
 
-@:fakeEnum(String) extern enum IPVersion {
+extern enum abstract IPVersion(String) {
 	IPV4;
 	IPV6;
 }

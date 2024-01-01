@@ -1,6 +1,6 @@
 package flash.text;
 
-@:fakeEnum(String) extern enum ReturnKeyLabel {
+extern enum abstract ReturnKeyLabel(String) {
 	DEFAULT;
 	DONE;
 	GO;

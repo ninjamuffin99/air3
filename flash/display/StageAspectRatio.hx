@@ -1,6 +1,6 @@
 package flash.display;
 
-@:fakeEnum(String) extern enum StageAspectRatio {
-	LANDSCAPE;
-	PORTRAIT;
+extern enum abstract StageAspectRatio(String) {
+	var LANDSCAPE;
+	var PORTRAIT;
 }

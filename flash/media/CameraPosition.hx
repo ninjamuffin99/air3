@@ -1,6 +1,6 @@
 package flash.media;
 
-@:fakeEnum(String) extern enum CameraPosition {
+extern enum abstract CameraPosition(String) {
 	BACK;
 	FRONT;
 	UNKNOWN;

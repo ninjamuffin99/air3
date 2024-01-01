@@ -1,6 +1,6 @@
 package flash.media;
 
-@:fakeEnum(String) extern enum AudioPlaybackMode {
+extern enum abstract AudioPlaybackMode(String) {
 	MEDIA;
 	VOICE;
 }

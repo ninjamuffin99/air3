@@ -1,6 +1,6 @@
 package flash.errors;
 
-@:fakeEnum(String) extern enum SQLErrorOperation {
+extern enum abstract SQLErrorOperation(String) {
 	ANALYZE;
 	ATTACH;
 	BEGIN;

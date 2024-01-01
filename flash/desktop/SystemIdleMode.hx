@@ -1,6 +1,6 @@
 package flash.desktop;
 
-@:fakeEnum(String) extern enum SystemIdleMode {
-	KEEP_AWAKE;
-	NORMAL;
+extern enum abstract SystemIdleMode(String) {
+	var KEEP_AWAKE;
+	var NORMAL;
 }

@@ -1,6 +1,6 @@
 package flash.display;
 
-@:fakeEnum(String) extern enum NativeWindowSystemChrome {
+extern enum abstract NativeWindowSystemChrome(String) {
 	ALTERNATE;
 	NONE;
 	STANDARD;

@@ -1,6 +1,6 @@
 package flash.display;
 
-@:fakeEnum(String) extern enum NativeWindowResize {
+extern enum abstract NativeWindowResize(String) {
 	BOTTOM;
 	BOTTOM_LEFT;
 	BOTTOM_RIGHT;

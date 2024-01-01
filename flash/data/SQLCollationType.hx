@@ -1,6 +1,6 @@
 package flash.data;
 
-@:fakeEnum(String) extern enum SQLCollationType {
+extern enum abstract SQLCollationType(String) {
 	BINARY;
 	NO_CASE;
 }

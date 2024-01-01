@@ -1,6 +1,6 @@
 package flash.media;
 
-@:fakeEnum(String) extern enum MediaType {
+extern enum abstract MediaType(String) {
 	IMAGE;
 	VIDEO;
 }

@@ -1,6 +1,6 @@
 package flash.desktop;
 
-@:fakeEnum(String) extern enum InvokeEventReason {
-	LOGIN;
-	STANDARD;
+extern enum abstract InvokeEventReason(String) {
+	var LOGIN;
+	var STANDARD;
 }

@@ -1,6 +1,6 @@
 package flash.security;
 
-@:fakeEnum(String) extern enum RevocationCheckSettings {
+extern enum abstract RevocationCheckSettings(String) {
 	ALWAYS_REQUIRED;
 	BEST_EFFORT;
 	NEVER;

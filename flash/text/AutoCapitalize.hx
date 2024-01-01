@@ -1,6 +1,6 @@
 package flash.text;
 
-@:fakeEnum(String) extern enum AutoCapitalize {
+extern enum abstract AutoCapitalize(String) {
 	ALL;
 	NONE;
 	SENTENCE;
