@@ -1,6 +1,6 @@
 package flash.filesystem;
 
-extern class FileStream extends flash.events.EventDispatcher, implements flash.utils.IDataInput, implements flash.utils.IDataOutput {
+extern class FileStream extends flash.events.EventDispatcher implements flash.utils.IDataInput implements flash.utils.IDataOutput {
 	var bytesAvailable(default,null) : UInt;
 	var endian : flash.utils.Endian;
 	var objectEncoding : UInt;

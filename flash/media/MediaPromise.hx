@@ -1,6 +1,6 @@
 package flash.media;
 
-extern class MediaPromise extends flash.events.EventDispatcher, implements IFilePromise {
+extern class MediaPromise extends flash.events.EventDispatcher implements IFilePromise {
 	var file(default,null) : flash.filesystem.File;
 	var isAsync(default,null) : Bool;
 	var mediaType(default,null) : String;

@@ -1,6 +1,6 @@
 package flash.net;
 
-extern class Socket extends flash.events.EventDispatcher, implements flash.utils.IDataInput, implements flash.utils.IDataOutput {
+extern class Socket extends flash.events.EventDispatcher implements flash.utils.IDataInput implements flash.utils.IDataOutput {
 	var bytesAvailable(default,null) : UInt;
 	var connected(default,null) : Bool;
 	var endian : flash.utils.Endian;

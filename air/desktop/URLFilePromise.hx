@@ -1,6 +1,6 @@
 package air.desktop;
 
-extern class URLFilePromise extends flash.events.EventDispatcher, implements flash.desktop.IFilePromise {
+extern class URLFilePromise extends flash.events.EventDispatcher implements flash.desktop.IFilePromise {
 	var isAsync(default,null) : Bool;
 	var relativePath : String;
 	var request : flash.net.URLRequest;
