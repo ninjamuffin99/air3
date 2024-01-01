@@ -1,9 +1,9 @@
 package flash.filesystem;
 
 extern class FileStream extends flash.events.EventDispatcher implements flash.utils.IDataInput implements flash.utils.IDataOutput {
-	var bytesAvailable(default,null) : UInt;
-	var endian : flash.utils.Endian;
-	var objectEncoding : UInt;
+	@:flash.property var bytesAvailable(get,null) : UInt;
+	@:flash.property var endian(get, set) : flash.utils.Endian;
+	@:flash.property var objectEncoding(get, set) : UInt;
 	var position : Float;
 	var readAhead : Float;
 	function new() : Void;
@@ -37,4 +37,12 @@ extern class FileStream extends flash.events.EventDispatcher implements flash.ut
 	function writeUTF(value : String) : Void;
 	function writeUTFBytes(value : String) : Void;
 	function writeUnsignedInt(value : UInt) : Void;
+
+	private function get_endian() : flash.utils.Endian;
+	private function set_endian(value : flash.utils.Endian) : flash.utils.Endian;
+
+	private function get_objectEncoding() : UInt;
+	private function set_objectEncoding(value : UInt) : UInt;
+
+	private function get_bytesAvailable() : UInt;
 }
