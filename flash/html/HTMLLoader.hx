@@ -1,0 +1,40 @@
+package flash.html;
+
+extern class HTMLLoader extends flash.display.Sprite {
+	var authenticate : Bool;
+	var cacheResponse : Bool;
+	var contentHeight(default,null) : Float;
+	var contentWidth(default,null) : Float;
+	var hasFocusableContent(default,null) : Bool;
+	var historyLength(default,null) : UInt;
+	var historyPosition : UInt;
+	var htmlHost : HTMLHost;
+	var idleTimeout : Float;
+	var loaded(default,null) : Bool;
+	var location(default,null) : String;
+	var manageCookies : Bool;
+	var navigateInSystemBrowser : Bool;
+	var paintsDefaultBackground : Bool;
+	var placeLoadStringContentInApplicationSandbox : Bool;
+	var runtimeApplicationDomain : flash.system.ApplicationDomain;
+	var scrollH : Float;
+	var scrollV : Float;
+	var textEncodingFallback : String;
+	var textEncodingOverride : String;
+	var useCache : Bool;
+	var userAgent : String;
+	var window(default,null) : Dynamic;
+	function new() : Void;
+	function cancelLoad() : Void;
+	function getHistoryAt(position : UInt) : HTMLHistoryItem;
+	function historyBack() : Void;
+	function historyForward() : Void;
+	function historyGo(steps : Int) : Void;
+	function load(urlRequestToLoad : flash.net.URLRequest) : Void;
+	function loadString(htmlContent : String) : Void;
+	function reload() : Void;
+	static var isSupported(default,null) : Bool;
+	static var pdfCapability(default,null) : Int;
+	static var swfCapability(default,null) : Int;
+	static function createRootWindow(visible : Bool=true, ?windowInitOptions : flash.display.NativeWindowInitOptions, scrollBarsVisible : Bool=true, ?bounds : flash.geom.Rectangle) : HTMLLoader;
+}

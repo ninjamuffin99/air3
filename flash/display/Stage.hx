@@ -1,0 +1,40 @@
+package flash.display;
+
+extern class Stage extends DisplayObjectContainer {
+	var align : StageAlign;
+	var allowsFullScreen(default,null) : Bool;
+	var autoOrients : Bool;
+	var color : UInt;
+	var colorCorrection : ColorCorrection;
+	var colorCorrectionSupport(default,null) : ColorCorrectionSupport;
+	var constructor : Dynamic;
+	var deviceOrientation(default,null) : StageOrientation;
+	var displayContextInfo(default,null) : String;
+	var displayState : flash.display.StageDisplayState;
+	var focus : InteractiveObject;
+	var frameRate : Float;
+	var fullScreenHeight(default,null) : UInt;
+	var fullScreenSourceRect : flash.geom.Rectangle;
+	var fullScreenWidth(default,null) : UInt;
+	var mouseLock : Bool;
+	var nativeWindow(default,null) : NativeWindow;
+	var orientation(default,null) : StageOrientation;
+	var quality : StageQuality;
+	var scaleMode : StageScaleMode;
+	var showDefaultContextMenu : Bool;
+	var softKeyboardRect(default,null) : flash.geom.Rectangle;
+	var stage3Ds(default,null) : flash.Vector<Stage3D>;
+	var stageFocusRect : Bool;
+	var stageHeight : Int;
+	var stageVideos(default,null) : flash.Vector<flash.media.StageVideo>;
+	var stageWidth : Int;
+	var supportedOrientations(default,null) : flash.Vector<StageOrientation>;
+	var wmodeGPU(default,null) : Bool;
+	function new() : Void;
+	function assignFocus(objectToFocus : InteractiveObject, direction : FocusDirection ) : Void;
+	function invalidate() : Void;
+	function isFocusInaccessible() : Bool;
+	function setAspectRatio(newAspectRatio : StageAspectRatio) : Void;
+	function setOrientation(newOrientation : StageOrientation) : Void;
+	static var supportsOrientationChange(default,null) : Bool;
+}
